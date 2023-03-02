@@ -32,7 +32,7 @@ export default function Home() {
           src="/assets/bicycle-icon.png"
           width={25}
           height={30}
-          alt="ball"
+          alt="ball-icon"
         />
         <p className="text-lg mx-3">Primary</p>
       </Link>
