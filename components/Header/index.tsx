@@ -4,7 +4,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between h-16 border-b-[1px] border-gray-500">
+    <header className="flex items-center justify-between h-16 border-b-[0.1px] border-gray-200">
       <Image src="/assets/header-logo.png" width={150} height={80} alt="logo" />
       <div className="flex items-center">
         <Link href="/" className="mx-4 font-semibold text-gray-600">
