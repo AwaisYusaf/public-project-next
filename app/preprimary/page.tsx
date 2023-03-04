@@ -11,7 +11,7 @@ const Button = ({ title, imgUrl }: any) => {
 };
 const Card = ({ title, imgUrl }: any) => {
   return (
-    <div className="w-[45%] rounded-lg shadow-lg m-4">
+    <div className="w-[40%] rounded-lg shadow-lg m-4">
       <Image
         src={imgUrl}
         alt="book-cover"
@@ -36,9 +36,30 @@ function Page() {
       {/* Books */}
       <section className="w-full flex flex-wrap justify-between">
         <Card title="Akshar Sagar" imgUrl="/assets/book1.jpeg" />
-        <Card title="Akshar Sagar" imgUrl="/assets/book1.jpeg" />
-        <Card title="Akshar Sagar" imgUrl="/assets/book1.jpeg" />
-        <Card title="Akshar Sagar" imgUrl="/assets/book1.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book2.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book3.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book4.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book5.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book6.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book7.jpeg" />
+      </section>
+
+      <Button title="LKG" imgUrl="/assets/boy-icon2.png" />
+      {/* Books */}
+      <section className="w-full flex flex-wrap justify-between">
+        <Card title="Akshar Sagar" imgUrl="/assets/book2.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book2.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book2.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book2.jpeg" />
+      </section>
+
+      <Button title="UKG" imgUrl="/assets/boy-icon2.png" />
+      {/* Books */}
+      <section className="w-full flex flex-wrap justify-between">
+        <Card title="Akshar Sagar" imgUrl="/assets/book3.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book3.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book3.jpeg" />
+        <Card title="Akshar Sagar" imgUrl="/assets/book3.jpeg" />
       </section>
     </div>
   );
