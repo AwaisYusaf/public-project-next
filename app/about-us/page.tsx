@@ -104,7 +104,7 @@ function Page() {
           </span>{" "}
           services
         </h2>
-        <p className="text-gray-600 text-2xl my-6 w-7/12 mb-12 text-center">
+        <p className="text-gray-600 text-2xl my-6 lg:w-7/12 w-full mb-12 text-center">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </p>
