@@ -103,12 +103,12 @@ function Header() {
             />
           </div>
           {/* Mobile menu icon */}
-          <div className="lg:hidden">
+          <div className="lg:hidden outline-none">
             <button
-              className="relative group"
+              className="relative group outline-none"
               onClick={() => setMenuOpen(!isMenuOpen)}
             >
-              <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  duration-200 shadow-md">
+              <div className="relative outline-none flex overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all  duration-200 shadow-md">
                 <div className="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden">
                   <div
                     className={`bg-gray-600 h-[2px] w-7 transform transition-all duration-300 origin-left ${
