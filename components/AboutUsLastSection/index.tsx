@@ -30,11 +30,11 @@ function Section() {
           </p>
         </div>
       </div>
-      <div className="lg:w-8/12">
+      <div className="lg:w-8/12 lg:mt-0 mt-8">
         <div className="flex w-full">
           <div
             onClick={() => setActive(1)}
-            className={`transition duration-200 ease-in-out py-3 rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
+            className={`transition duration-200 ease-in-out lg:py-3 py-1 rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
               active == 1
                 ? "shadow-lg shadow-gray-300 bg-[#1769ff] text-white opacity-100"
                 : ""
@@ -51,11 +51,13 @@ function Section() {
               alt="icon"
               className="mx-2"
             />
-            <p>Design</p>
+            <p className="font-normal text-sm lg:font-semibold lg:text-xl">
+              Design
+            </p>
           </div>
           <div
             onClick={() => setActive(2)}
-            className={` transition duration-200 ease-in-out py-3 rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
+            className={`lg:py-3 py-1 transition duration-200 ease-in-out rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
               active == 2
                 ? "shadow-lg shadow-gray-300 bg-[#1769ff] text-white opacity-100"
                 : ""
@@ -72,11 +74,13 @@ function Section() {
               alt="icon"
               className="mx-2"
             />
-            Product
+            <p className="font-normal text-sm lg:font-semibold lg:text-xl">
+              Product
+            </p>
           </div>
           <div
             onClick={() => setActive(3)}
-            className={`transition duration-200 ease-in-out py-3 rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
+            className={` lg:py-3 py-1 transition duration-200 ease-in-out rounded w-4/12 flex justify-center items-center font-semibold text-xl opacity-70 hover:opacity-100 cursor-pointer ${
               active == 3
                 ? "shadow-lg shadow-gray-300 bg-[#1769ff] text-white opacity-100"
                 : ""
@@ -93,7 +97,9 @@ function Section() {
               alt="icon"
               className="mx-2"
             />
-            Web
+            <p className="font-normal text-sm lg:font-semibold lg:text-xl">
+              Web
+            </p>
           </div>
         </div>
         <section>
