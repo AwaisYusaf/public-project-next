@@ -74,7 +74,7 @@ function Page() {
         </div>
         {/* Right side images */}
         <div className="lg:w-2/4 w-full">
-          <div className="mt-10 ml-8 lg:animate-[bounce_15s_linear_infinite] lg:mt-40">
+          <div className="mt-10 ml-8 lg:mt-40">
             <Image
               src="/assets/about-img1.jpg"
               alt="img"
@@ -96,7 +96,7 @@ function Page() {
         <p className="w-fit my-6 bg-blue-100 text-gray-700 px-3 py-1 font-semibold rounded text-sm">
           International team
         </p>
-        <h2 className="text-center text-5xl my-6 leading-normal">
+        <h2 className="text-center lg:text-5xl text-3xl my-6 leading-normal">
           Check below the{" "}
           <span className="border-b-4 font-bold border-yellow-300 hover:bg-yellow-300 transition duration-100">
             most
@@ -110,19 +110,31 @@ function Page() {
         </p>
         <div className="flex w-full lg:flex-row flex-col justify-between my-6">
           <div className="flex flex-col items-center my-3">
-            <h2 className="text-blue-600 font-semibold text-7xl"> +150</h2>
+            <h2 className="text-blue-600 font-semibold lg:text-7xl text-5xl">
+              {" "}
+              +150
+            </h2>
             <p className="font-semibold text-lg">Available Developers</p>
           </div>
           <div className="flex flex-col items-center my-3">
-            <h2 className="text-blue-600 font-semibold text-7xl"> +60K</h2>
+            <h2 className="text-blue-600 font-semibold lg:text-7xl text-5xl">
+              {" "}
+              +60K
+            </h2>
             <p className="font-semibold text-lg">Clients Every Year</p>
           </div>
           <div className="flex flex-col items-center my-3">
-            <h2 className="text-blue-600 font-semibold text-7xl"> +46M</h2>
+            <h2 className="text-blue-600 font-semibold lg:text-7xl text-5xl">
+              {" "}
+              +46M
+            </h2>
             <p className="font-semibold text-lg">Revenue in 2020</p>
           </div>
           <div className="flex flex-col items-center my-3">
-            <h2 className="text-blue-600 font-semibold text-7xl"> +265</h2>
+            <h2 className="text-blue-600 font-semibold lg:text-7xl text-5xl">
+              {" "}
+              +265
+            </h2>
             <p className="font-semibold text-lg">Staff Members in Europe</p>
           </div>
         </div>
@@ -153,7 +165,7 @@ function Page() {
               className="mx-2 hover:scale-110 transition ease-in-out duration-150"
             />
           </div>
-          <h2 className="text-5xl font-semibold my-5">
+          <h2 className="lg:text-5xl text-3xl font-semibold my-5">
             Create Awesome Photo Stack Images with Essentials.
           </h2>
           <p className="w-11/12 text-xl text-gray-600">
@@ -174,7 +186,7 @@ function Page() {
           />
         </div>
       </section>
-      <section className="w-full mt-20">
+      <section className="w-full lg:mt-20">
         <Section />
       </section>
     </main>

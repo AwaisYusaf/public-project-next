@@ -8,10 +8,10 @@ function CarouselComponent() {
     <div className="w-full relative flex flex-col items-center">
       <Image
         src={selected}
-        width={600}
-        height={400}
+        width={1000}
+        height={800}
         alt="img"
-        className="w-full rounded-lg object-cover lg:h-[85vh] h-[40vh] transition duration-200 ease-in"
+        className="w-full rounded-lg object-cover lg:h-[60vh] h-[30vh] transition duration-200 ease-in"
       />
       <div className="flex absolute -bottom-10 z-10">
         <Image

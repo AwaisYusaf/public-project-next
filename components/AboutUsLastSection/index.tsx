@@ -10,9 +10,9 @@ const content = [
 function Section() {
   const [active, setActive] = useState(1);
   return (
-    <div className="flex my-52 lg:flex-row flex-col">
+    <div className="flex lg:my-52 my-20 lg:flex-row flex-col">
       <div className="lg:w-4/12">
-        <h2 className="w-10/12 text-4xl font-semibold">
+        <h2 className="w-10/12 lg:text-4xl text-2xl font-semibold">
           Explore our wide variety of features and services.
         </h2>
         <p className="text-lg font-medium text-gray-600 my-6 w-10/12">
@@ -103,7 +103,9 @@ function Section() {
           </div>
         </div>
         <section>
-          <p className="text-lg mt-6 text-gray-700">{content[active - 1]}</p>
+          <p className="text-lg mt-6 lg:mx-0 mx-6 text-gray-700">
+            {content[active - 1]}
+          </p>
         </section>
       </div>
     </div>
