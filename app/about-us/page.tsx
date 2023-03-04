@@ -74,7 +74,7 @@ function Page() {
         </div>
         {/* Right side images */}
         <div className="lg:w-2/4 w-full">
-          <div className="mt-10 ml-8">
+          <div className="mt-10 ml-8 lg:animate-[bounce_15s_linear_infinite] lg:mt-40">
             <Image
               src="/assets/about-img1.jpg"
               alt="img"
@@ -87,7 +87,7 @@ function Page() {
               alt="img"
               width={400}
               height={400}
-              className="w-8/12 -mt-32 ml-32 rounded-md"
+              className="w-8/12 -mt-32 ml-20 lg:ml-32 rounded-md"
             />
           </div>
         </div>
