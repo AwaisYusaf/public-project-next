@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center h-[150vh]">
+    <main className="flex flex-col items-center min-h-[150vh]">
       <Image
         src="/assets/logo.png"
         width={250}
